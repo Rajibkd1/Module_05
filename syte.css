@@ -6,8 +6,9 @@ body {
 /* syles for nav tag */
 nav {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -41,4 +42,20 @@ nav a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+/* Header related class */
+
+.header {
+  background: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner.profile {
+  width: 584px;
+  height: 676px;
 }
