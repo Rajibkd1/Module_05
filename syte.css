@@ -1,0 +1,18 @@
+/* Common shared syles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* syles for nav tag */
+nav {
+  display: flex;
+}
+
+.nav-title {
+  color: #181818;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
